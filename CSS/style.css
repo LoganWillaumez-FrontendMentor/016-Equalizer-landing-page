@@ -2,8 +2,7 @@
  * Set up a decent box model on the root element
  */
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /**
@@ -15,12 +14,305 @@ html {
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
-/**
- * Basic typography style for copy text
- */
+body {
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 80px 0;
+}
+@media only screen and (min-width: 750px) {
+  .container {
+    padding: 62px 0 85px 0;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .container {
+    padding: 62px 0 91px 0;
+  }
+}
+
+a {
+  cursor: pointer;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  text-align: left;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.454545px;
+  margin-bottom: 20px;
+  color: #191826;
+}
+@media only screen and (min-width: 750px) {
+  header h1 {
+    font-size: 64px;
+    line-height: 64px;
+    letter-spacing: -0.727273px;
+    margin-bottom: 28px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  header h1 {
+    font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+  }
+}
+header .subtitle {
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+}
+@media only screen and (min-width: 750px) {
+  header .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  header .subtitle {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+main .premium-card h2 {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #fcfaf9;
+  margin-bottom: 12px;
+}
+@media only screen and (min-width: 1000px) {
+  main .premium-card h2 {
+    margin-bottom: 22px;
+  }
+}
+main .premium-card .premium-card-body {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fcfaf9;
+  margin-bottom: 33px;
+}
+@media only screen and (min-width: 1000px) {
+  main .premium-card .premium-card-body {
+    margin-bottom: 39px;
+  }
+}
+main .premium-card .price {
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 52px;
+  color: #fcfaf9;
+  margin-bottom: 22px;
+}
+@media only screen and (min-width: 1000px) {
+  main .premium-card .price {
+    margin-bottom: 46px;
+  }
+}
+main .premium-card .price-light {
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  color: #fcfaf9;
+}
+main .premium-card button {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: -0.18px;
+}
+main .premium-card button.ios-download {
+  color: #fcfaf9;
+}
+main .premium-card button.android-download {
+  color: #191826;
+}
+
+footer .copyright {
+  font-size: 16px;
+  line-height: 26px;
+  color: #191826;
+}
+footer .right-bold {
+  font-weight: bold;
+}
+
+button {
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  border: none;
+}
+button.ios-download {
+  background: #191826;
+  margin-bottom: 16px;
+}
+button.android-download {
+  background: #fcfaf9;
+}
+
+header {
+  padding: 0 24px 0 24px;
+  margin-bottom: 186px;
+}
+header .design {
+  display: none;
+}
+
+.logo {
+  width: 146px;
+  height: 32px;
+  margin-bottom: 64px;
+}
+@media only screen and (min-width: 750px) {
+  .logo {
+    margin-bottom: 95px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .logo {
+    margin: 127px;
+  }
+}
+
+footer {
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1000px) {
+  footer {
+    flex-direction: row;
+  }
+}
+footer .logo-right-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+footer .logo-right-container .logo-footer {
+  margin-bottom: 32px;
+}
+@media only screen and (min-width: 1000px) {
+  footer .logo-right-container .logo-footer {
+    margin-bottom: 47px;
+    margin-right: 138px;
+  }
+}
+footer .container-icons {
+  align-self: flex-start;
+  display: flex;
+  gap: 20px;
+}
+@media only screen and (min-width: 750px) {
+  footer .container-icons {
+    align-self: flex-end;
+  }
+}
+footer .container-icons .icons {
+  width: 20px;
+  height: 20px;
+}
+
+main {
+  width: 375px;
+  height: 600px;
+  background: #191826;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+  margin-bottom: 390px;
+}
+@media only screen and (min-width: 750px) {
+  main {
+    margin-bottom: 183px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  main {
+    margin-bottom: 202px;
+  }
+}
+main .premium-card {
+  padding: 48px 37px 0px 37px;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  height: 546px;
+  background: #fa7453;
+  border-radius: 12px;
+  bottom: -602px;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (min-width: 750px) {
+  main .premium-card {
+    max-width: 399px;
+    left: 272px;
+    top: 920px;
+    max-height: 546px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  main .premium-card {
+    max-width: 446px;
+    max-height: 625px;
+    left: 734px;
+    top: 950px;
+  }
+}
+main .icon-app {
+  width: 208.97px;
+  height: 430px;
+  position: absolute;
+  left: 50%;
+  top: 115px;
+  transform: translate(-50%, -50%);
+}
+@media only screen and (min-width: 750px) {
+  main .icon-app {
+    width: 270.21px;
+    height: 556px;
+    left: 97px;
+    top: 632px;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  main .icon-app {
+    width: 280px;
+    height: 606px;
+    left: 283px;
+    top: 666px;
+  }
+}
+main .pattern-2 {
+  left: 50%;
+  transform: translate(-50%);
+  top: 0;
+  z-index: -1;
+  width: 280px;
+  position: absolute;
+  height: 420px;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+footer {
+  padding: 0 24px 0 24px;
+  display: flex;
+  flex-direction: column;
+  @media only screen and (min-width: 1000px) {
+    flex-direction: row;
+  }
+  .logo-right-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+    .logo-footer {
+      margin-bottom: 32px;
+      @media only screen and (min-width: 1000px) {
+        margin-bottom: 47px;
+        margin-right: 138px;
+      }
+    }
+  }
+  .container-icons {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+    @media only screen and (min-width: 750px) {
+      align-self: flex-end;
+    }
+    .icons {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

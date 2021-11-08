@@ -1,0 +1,13 @@
+button {
+  width: 296px;
+  height: 61px;
+  border-radius: 12px;
+  border: none;
+  &.ios-download {
+    background: #191826;
+    margin-bottom: 16px;
+  }
+  &.android-download {
+    background: #fcfaf9;
+  }
+}

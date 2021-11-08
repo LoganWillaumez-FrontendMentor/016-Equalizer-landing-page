@@ -1,3 +1,101 @@
-/**
- * Basic typography style for copy text
- */
+body {
+  text-align: left;
+}
+header {
+  h1 {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    margin-bottom: 20px;
+    color: #191826;
+    @media only screen and (min-width: 750px) {
+      font-size: 64px;
+      line-height: 64px;
+      letter-spacing: -0.727273px;
+      margin-bottom: 28px;
+    }
+    @media only screen and (min-width: 1000px) {
+      font-size: 88px;
+      line-height: 88px;
+      letter-spacing: -1px;
+      margin-bottom: 40px;
+    }
+  }
+  .subtitle {
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    @media only screen and (min-width: 750px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+    @media only screen and (min-width: 1000px) {
+      font-size: 18px;
+      line-height: 28px;
+    }
+  }
+}
+main {
+  .premium-card {
+    h2 {
+      font-size: 32px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #fcfaf9;
+      margin-bottom: 12px;
+      @media only screen and (min-width: 1000px) {
+        margin-bottom: 22px;
+      }
+    }
+    .premium-card-body {
+      font-size: 18px;
+      line-height: 28px;
+      color: #fcfaf9;
+      margin-bottom: 33px;
+      @media only screen and (min-width: 1000px) {
+        margin-bottom: 39px;
+      }
+    }
+    .price {
+      font-weight: bold;
+      font-size: 65px;
+      line-height: 52px;
+      color: #fcfaf9;
+      margin-bottom: 22px;
+      @media only screen and (min-width: 1000px) {
+        margin-bottom: 46px;
+      }
+    }
+
+    .price-light {
+      vertical-align: middle;
+      font-weight: normal;
+      font-size: 20px;
+      letter-spacing: -0.2px;
+      color: #fcfaf9;
+    }
+    button {
+      font-weight: bold;
+      font-size: 18px;
+      text-align: center;
+      letter-spacing: -0.18px;
+      &.ios-download {
+        color: #fcfaf9;
+      }
+      &.android-download {
+        color: #191826;
+      }
+    }
+  }
+}
+footer {
+  .copyright {
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+  }
+  .right-bold {
+    font-weight: bold;
+  }
+}
