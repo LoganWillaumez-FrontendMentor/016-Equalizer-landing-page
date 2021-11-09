@@ -26,6 +26,10 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  overflow: hidden;
+  @media only screen and (min-height: 1900px) {
+    align-items: center;
+  }
 }
 .container {
   max-width: 575px;
@@ -39,29 +43,38 @@ body {
     max-width: 905px;
   }
   @media only screen and (min-width: 1000px) {
-    padding: 62px 0 91px 0;
+    padding: 62px 33px 91px 33px;
     max-width: 1200px;
   }
+  @media only screen and (min-width: 1441px) {
+    overflow: visible;
+  }
+
   &::after {
     content: "";
     width: 381.4px;
     height: 520px;
     background-image: url("../../images/bg-main-mobile.png");
+    background-size: cover;
     background-position: 20% 60%;
     position: absolute;
-    left: 59px;
-    top: -104px;
+    right: -110px;
+    top: -144px;
+    z-index: -1;
     @media only screen and (min-width: 750px) {
       background-image: url("../../images/bg-main-tablet.png");
       background-repeat: none;
       background-position: 80% 60%;
-      z-index: -1;
-      left: -200px;
+      right: -30px;
+      top: -144px;
       width: 983px;
-      height: 808px;
+      height: 908px;
     }
     @media only screen and (min-width: 1000px) {
-      width: 1613px;
+      width: 1813px;
+      right: -280px;
+      top: -144px;
+      background-position: 135% 60%;
       height: 1758px;
       background-image: url("../../images/bg-main-desktop.png");
     }
