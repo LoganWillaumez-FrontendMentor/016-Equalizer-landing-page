@@ -10,7 +10,7 @@ button {
   gap: 8px;
   transition: all 150ms ease-in-out;
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   &.ios-download {
     background: #191826;
@@ -24,5 +24,13 @@ button {
     &:hover {
       background: #ffb964;
     }
+  }
+  .apple-logo {
+    width: 17px;
+    height: 20px;
+  }
+  .android-logo {
+    width: 17px;
+    height: 20px;
   }
 }

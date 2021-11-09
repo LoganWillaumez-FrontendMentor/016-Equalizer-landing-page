@@ -226,7 +226,7 @@ button {
   transition: all 150ms ease-in-out;
 }
 button:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 button.ios-download {
   background: #191826;
@@ -240,6 +240,14 @@ button.android-download {
 }
 button.android-download:hover {
   background: #ffb964;
+}
+button .apple-logo {
+  width: 17px;
+  height: 20px;
+}
+button .android-logo {
+  width: 17px;
+  height: 20px;
 }
 
 header {
