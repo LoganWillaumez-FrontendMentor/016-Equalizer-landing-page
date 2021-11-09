@@ -1,9 +1,32 @@
 header {
   padding: 0 24px 0 24px;
   margin-bottom: 186px;
-
+  @media only screen and (min-width: 750px) {
+    padding-right: 190px;
+    padding-left: 9px;
+    margin-bottom: 240px;
+  }
+  @media only screen and (min-width: 1000px) {
+    padding-right: 301px;
+    padding-left: 42px;
+    margin-bottom: 320px;
+  }
   .design {
     display: none;
+    @media only screen and (min-width: 750px) {
+      display: block;
+      position: absolute;
+      width: 267px;
+      height: 400px;
+      top: -30px;
+      right: -60px;
+    }
+    @media only screen and (min-width: 1000px) {
+      width: 312px;
+      height: 468px;
+      top: -40px;
+      right: -110px;
+    }
   }
 }
 .logo {
@@ -14,6 +37,6 @@ header {
     margin-bottom: 95px;
   }
   @media only screen and (min-width: 1000px) {
-    margin: 127px;
+    margin-bottom: 127px;
   }
 }

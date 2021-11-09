@@ -31,8 +31,8 @@ header {
       line-height: 28px;
     }
     @media only screen and (min-width: 1000px) {
-      font-size: 18px;
-      line-height: 28px;
+      font-size: 20px;
+      line-height: 34px;
     }
   }
 }
@@ -45,7 +45,9 @@ main {
       color: #fcfaf9;
       margin-bottom: 12px;
       @media only screen and (min-width: 1000px) {
-        margin-bottom: 22px;
+        margin-bottom: 25px;
+        font-size: 40px;
+        line-height: 52px;
       }
     }
     .premium-card-body {
@@ -54,7 +56,8 @@ main {
       color: #fcfaf9;
       margin-bottom: 33px;
       @media only screen and (min-width: 1000px) {
-        margin-bottom: 39px;
+        margin-bottom: 35px;
+        line-height: 34px;
       }
     }
     .price {
@@ -64,7 +67,7 @@ main {
       color: #fcfaf9;
       margin-bottom: 22px;
       @media only screen and (min-width: 1000px) {
-        margin-bottom: 46px;
+        margin-bottom: 40px;
       }
     }
 

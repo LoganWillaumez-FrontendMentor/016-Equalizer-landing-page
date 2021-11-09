@@ -1,5 +1,5 @@
 main {
-  width: 375px;
+  width: 100%;
   height: 600px;
   background: #191826;
   position: relative;
@@ -7,10 +7,11 @@ main {
   border-radius: 12px;
   margin-bottom: 390px;
   @media only screen and (min-width: 750px) {
-    margin-bottom: 183px;
+    margin-bottom: 179px;
   }
   @media only screen and (min-width: 1000px) {
     margin-bottom: 202px;
+    max-width: 1100px;
   }
   .premium-card {
     padding: 48px 37px 0px 37px;
@@ -23,16 +24,18 @@ main {
     bottom: -602px;
     transform: translate(-50%, -50%);
     @media only screen and (min-width: 750px) {
+      padding: 48px 49px 0px 54px;
       max-width: 399px;
-      left: 272px;
-      top: 920px;
+      left: 440px;
+      top: 425px;
       max-height: 546px;
     }
     @media only screen and (min-width: 1000px) {
       max-width: 446px;
-      max-height: 625px;
-      left: 734px;
-      top: 950px;
+      min-height: 625px;
+      left: 784px;
+      top: 400px;
+      padding: 62px 59px 0px 54px;
     }
   }
   .icon-app {
@@ -45,14 +48,14 @@ main {
     @media only screen and (min-width: 750px) {
       width: 270.21px;
       height: 556px;
-      left: 97px;
-      top: 632px;
+      left: 200px;
+      top: 138px;
     }
     @media only screen and (min-width: 1000px) {
-      width: 280px;
-      height: 606px;
-      left: 283px;
-      top: 666px;
+      width: 312px;
+      height: 642px;
+      left: 245px;
+      top: 110px;
     }
   }
   .pattern-2 {
@@ -63,5 +66,15 @@ main {
     width: 280px;
     position: absolute;
     height: 420px;
+    @media only screen and (min-width: 750px) {
+      left: 52%;
+      top: -30px;
+    }
+    @media only screen and (min-width: 1000px) {
+      width: 312px;
+      height: 468px;
+      left: 44%;
+      top: -40px;
+    }
   }
 }

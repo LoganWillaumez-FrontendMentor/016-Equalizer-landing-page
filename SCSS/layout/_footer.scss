@@ -2,13 +2,30 @@ footer {
   padding: 0 24px 0 24px;
   display: flex;
   flex-direction: column;
+  @media only screen and (min-width: 750px) {
+    padding-left: 5px;
+    padding-right: 9px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+  }
   @media only screen and (min-width: 1000px) {
     flex-direction: row;
+    padding-left: 42px;
+    padding-right: 50px;
   }
   .logo-right-container {
     display: flex;
     flex-direction: column;
     margin-bottom: 90px;
+    @media only screen and (min-width: 750px) {
+      max-width: 366px;
+    }
+    @media only screen and (min-width: 1000px) {
+      flex-direction: row;
+      max-width: 650px;
+    }
     .logo-footer {
       margin-bottom: 32px;
       @media only screen and (min-width: 1000px) {
@@ -22,7 +39,11 @@ footer {
     display: flex;
     gap: 20px;
     @media only screen and (min-width: 750px) {
-      align-self: flex-end;
+      align-self: center;
+      margin-bottom: 25px;
+    }
+    @media only screen and (min-width: 1000px) {
+      margin-bottom: 80px;
     }
     .icons {
       width: 20px;
