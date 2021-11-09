@@ -60,7 +60,7 @@ body {
   content: "";
   width: 381.4px;
   height: 520px;
-  background-image: url("../../images/bg-main-mobile.png");
+  background-image: url("../images/bg-main-mobile.png");
   background-size: cover;
   background-position: 20% 60%;
   position: absolute;
@@ -70,7 +70,7 @@ body {
 }
 @media only screen and (min-width: 750px) {
   .container::after {
-    background-image: url("../../images/bg-main-tablet.png");
+    background-image: url("../images/bg-main-tablet.png");
     background-repeat: none;
     background-position: 80% 60%;
     right: -30px;
