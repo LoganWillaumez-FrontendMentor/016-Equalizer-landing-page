@@ -25,7 +25,7 @@ body {
   justify-content: center;
   overflow-x: hidden;
 }
-@media only screen and (min-height: 1900px) {
+@media only screen and (min-height: 2000px) {
   body {
     align-items: center;
   }
@@ -45,7 +45,7 @@ body {
     max-width: 905px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   .container {
     padding: 62px 33px 0px 33px;
     max-width: 1200px;
@@ -79,7 +79,7 @@ body {
     height: 908px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   .container::after {
     width: 1813px;
     right: -280px;
@@ -118,7 +118,7 @@ header h1 {
     margin-bottom: 28px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   header h1 {
     font-size: 88px;
     line-height: 88px;
@@ -137,7 +137,7 @@ header .subtitle {
     line-height: 28px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   header .subtitle {
     font-size: 20px;
     line-height: 34px;
@@ -151,7 +151,7 @@ main .premium-card h2 {
   color: #fcfaf9;
   margin-bottom: 12px;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   main .premium-card h2 {
     margin-bottom: 25px;
     font-size: 40px;
@@ -164,7 +164,7 @@ main .premium-card .premium-card-body {
   color: #fcfaf9;
   margin-bottom: 33px;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   main .premium-card .premium-card-body {
     margin-bottom: 35px;
     line-height: 34px;
@@ -175,9 +175,9 @@ main .premium-card .price {
   font-size: 65px;
   line-height: 52px;
   color: #fcfaf9;
-  margin-bottom: 22px;
+  margin-bottom: 32px;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   main .premium-card .price {
     margin-bottom: 40px;
   }
@@ -232,14 +232,14 @@ header {
 @media only screen and (min-width: 750px) {
   header {
     padding-right: 190px;
-    padding-left: 9px;
+    padding-left: 0px;
     margin-bottom: 240px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   header {
-    padding-right: 301px;
-    padding-left: 42px;
+    padding-right: 270px;
+    padding-left: 12px;
     margin-bottom: 320px;
   }
 }
@@ -253,10 +253,10 @@ header .design {
     width: 267px;
     height: 400px;
     top: -30px;
-    right: -60px;
+    right: -30px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   header .design {
     width: 312px;
     height: 468px;
@@ -275,7 +275,7 @@ header .design {
     margin-bottom: 95px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   .logo {
     margin-bottom: 127px;
   }
@@ -288,7 +288,7 @@ footer {
 }
 @media only screen and (min-width: 750px) {
   footer {
-    padding-left: 5px;
+    padding-left: 0px;
     padding-right: 9px;
     flex-direction: row;
     justify-content: space-between;
@@ -296,23 +296,23 @@ footer {
     width: 100%;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   footer {
     flex-direction: row;
-    padding-left: 42px;
-    padding-right: 50px;
+    padding-left: 12px;
   }
 }
 footer .logo-right-container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 55px;
 }
 @media only screen and (min-width: 750px) {
   footer .logo-right-container {
     max-width: 366px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   footer .logo-right-container {
     flex-direction: row;
     max-width: 650px;
@@ -321,7 +321,7 @@ footer .logo-right-container {
 footer .logo-right-container .logo-footer {
   margin-bottom: 32px;
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   footer .logo-right-container .logo-footer {
     margin-bottom: 47px;
     margin-right: 138px;
@@ -338,9 +338,9 @@ footer .container-icons {
     margin-bottom: 25px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   footer .container-icons {
-    margin-bottom: 90px;
+    margin-bottom: 55px;
   }
 }
 footer .container-icons .icons {
@@ -359,12 +359,12 @@ main {
 }
 @media only screen and (min-width: 750px) {
   main {
-    margin-bottom: 179px;
+    margin-bottom: 189px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   main {
-    margin-bottom: 202px;
+    margin-bottom: 195px;
     max-width: 1100px;
   }
 }
@@ -383,12 +383,12 @@ main .premium-card {
   main .premium-card {
     padding: 48px 49px 0px 54px;
     max-width: 399px;
-    left: 440px;
+    left: 430px;
     top: 425px;
     max-height: 546px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   main .premium-card {
     max-width: 446px;
     min-height: 625px;
@@ -409,11 +409,11 @@ main .icon-app {
   main .icon-app {
     width: 270.21px;
     height: 556px;
-    left: 200px;
-    top: 138px;
+    left: 190px;
+    top: 140px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   main .icon-app {
     width: 312px;
     height: 642px;
@@ -436,7 +436,7 @@ main .pattern-2 {
     top: -30px;
   }
 }
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1050px) {
   main .pattern-2 {
     width: 312px;
     height: 468px;

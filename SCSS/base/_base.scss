@@ -27,7 +27,7 @@ body {
   display: flex;
   justify-content: center;
   overflow-x: hidden;
-  @media only screen and (min-height: 1900px) {
+  @media only screen and (min-height: 2000px) {
     align-items: center;
   }
 }
@@ -42,7 +42,7 @@ body {
     padding: 62px 40px 0px 40px;
     max-width: 905px;
   }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1050px) {
     padding: 62px 33px 0px 33px;
     max-width: 1200px;
   }
@@ -70,7 +70,7 @@ body {
       width: 983px;
       height: 908px;
     }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1050px) {
       width: 1813px;
       right: -280px;
       top: -144px;
