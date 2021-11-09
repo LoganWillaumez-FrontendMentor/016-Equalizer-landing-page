@@ -3,11 +3,26 @@ button {
   height: 61px;
   border-radius: 12px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 8px;
+  transition: all 150ms ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
   &.ios-download {
     background: #191826;
     margin-bottom: 16px;
+    &:hover {
+      background: #66e2dc;
+    }
   }
   &.android-download {
     background: #fcfaf9;
+    &:hover {
+      background: #ffb964;
+    }
   }
 }
