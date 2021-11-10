@@ -12,6 +12,6 @@ Front end mentor challenge : [Link](https://www.frontendmentor.io/challenges/equ
   
 ## Demo
 
-https://loganwillaumez.github.io/Equalizer-landing-page/
+https://loganwillaumez-frontendmentor.github.io/016-Equalizer-landing-page/
 
   
